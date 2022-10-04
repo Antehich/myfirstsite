@@ -197,3 +197,6 @@ form{
     background: #ffffff;
     padding-top: 29px;
 }
+.email__form__submit:hover{
+    background-color: rgb(255, 226, 189);
+}
