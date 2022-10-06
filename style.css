@@ -6,9 +6,10 @@
 html,body{
     font-family: 'Oswald', sans-serif;
     height: 100%;
+    width: 100%;
 }
 .header{
-    width: 1440px;
+    width: 100%;
     height: 110px;
     background: #ffffff;
     display: flex;
@@ -29,6 +30,7 @@ html,body{
     display: flex;
     align-items: center;
     padding-right: 80px;
+    flex-wrap: wrap;
 }
 .menu__li{
     margin-left: 46px;
@@ -43,7 +45,7 @@ html,body{
 }
 .title__background{
     background-image: url("https://source.unsplash.com/vSuQJKZkt4U/1920x1080");
-    width: 1440px;
+    width: 100%;
     height: 622px;
     background-position: 40% 50%;
     display: flex;
@@ -66,8 +68,10 @@ html,body{
     margin-top: 7px;
 }
 .story{
-    width: 1440px;
-    height: 632px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
 }
 .title{
     font-weight: 500;
@@ -76,39 +80,45 @@ html,body{
     text-align: center;
     text-transform: uppercase;
     color: #000000;
-    padding-top: 60px;
+    margin-top: 60px;
 }
 .barista__image{
     width: 600px;
     height: 400px;
     margin-top: 60px;
     margin-left: 80px;
+    margin-right: 60px;
 }
 .story__content{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .barista__text{
-    width: 597px;
-    height: 180px;
-    margin-top: 170px;
-    margin-left: 40px;
+    width: 22%;
+    height: 100%;
+    margin-top: 100px;
 }
 .blog{
-    width: 1440px;
-    height: 711px;
+    width: 100%;
+    height: 100%;
     background: #EFEFEF;
 }
 .box{
     width: 365px;
     height: 474px;
     background: #FFFFFF;
+    margin-bottom: 60px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 .boxes{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 60px;
+    flex-wrap: wrap;
 }
 .box__title{
     font-weight: 400;
@@ -128,10 +138,10 @@ html,body{
     font-size: 18px;
     line-height: 27px;
     color: #000000;
-    margin: 0px 20px;
+    margin: 0 20px;
 }
 .subscribe{
-    width: 1440px;
+    width: 100%;
     height: 337px;
     background: #817070;
     display: flex;
@@ -157,7 +167,6 @@ html,body{
     margin-top: 28px;
     }
 ::placeholder{
-    color: #ffffff;
     text-align: center;
     font-weight: 300;
     font-size: 20px;
@@ -184,7 +193,7 @@ form{
     align-items: center;
 }
 .copyright{
-    width: 1440px;
+    width: 100%;
     height: 72px;
 }
 .copyright__text{
