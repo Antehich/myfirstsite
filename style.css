@@ -80,7 +80,7 @@ html,body{
     text-align: center;
     text-transform: uppercase;
     color: #000000;
-    margin-top: 60px;
+    padding-top: 60px;
 }
 .barista__image{
     width: 600px;
@@ -94,6 +94,7 @@ html,body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 60px;
 }
 .barista__text{
     width: 22%;
