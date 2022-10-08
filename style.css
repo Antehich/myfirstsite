@@ -83,7 +83,7 @@ html,body{
     padding-top: 60px;
 }
 .barista__image{
-    width: 600px;
+    width: 60%;
     height: 400px;
     margin-top: 60px;
     margin-left: 80px;
@@ -166,6 +166,7 @@ html,body{
     height: 55px;
     color: #ffffff;
     margin-top: 28px;
+    font-size: 22px;
     }
 ::placeholder{
     text-align: center;
